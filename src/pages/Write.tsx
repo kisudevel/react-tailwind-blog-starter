@@ -36,10 +36,10 @@ const Write = () => {
                   className="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-primary-500 focus:border-primary-500 block w-full p-2.5"
                 >
                   <option value={""}>Select category</option>
-                  <option value="TV">Next.js</option>
-                  <option value="PC">React.js</option>
-                  <option value="GA">Vue.js</option>
-                  <option value="PH">Phones</option>
+                  <option value="Next.js">Next.js</option>
+                  <option value="React.js">React.js</option>
+                  <option value="Vue.js">Vue.js</option>
+                  <option value="HTML">HTML</option>
                 </select>
               </div>
               <div>
