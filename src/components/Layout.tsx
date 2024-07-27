@@ -24,11 +24,13 @@ const Layout = () => {
               </ul>
             </nav>
           </header>
-          <Outlet />
+          <main className="min-h-[calc(100vh)]">
+            <Outlet />
+          </main>
         </div>
       </article>
       <footer className="bg-[#F5F5F5] py-[36px] ">
-        <div className="container flex flex-col justify-end items-center">
+        <div className="container flex flex-col justify-end items-center mx-auto">
           <nav className="flex gap-[25px] text-[#544B44] text-sm mb-[26px]">
             <li>
               <a href="#">About</a>
